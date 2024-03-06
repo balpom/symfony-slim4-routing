@@ -1,0 +1,31 @@
+{
+    "name": "balpom/symfony-slim4-routing",
+    "description": "Symfony Router implementation for Slim 4 framework instead of default Fast Router.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php", "http", "https", "router", "routing", "symfony", "slim4", "slim-4", "framework"],
+    "authors": [
+        {
+            "name": "l0gicgate",
+            "email": "pierre@lgse.com",
+			"homepage": "https://github.com/l0gicgate/slim4-symfony-router-exp"
+        },       
+        {
+            "name": "Mikhail (Balpom)",
+            "homepage": "https://www.balpom.ru",
+            "role": "reworker"
+        }
+    ],
+	
+    "require": {
+        "php": "^7.4|^8",
+        "slim/slim": "^4.7",
+        "symfony/routing": "^5.2|6"
+    },
+
+    "autoload": {
+        "psr-4":{
+            "Balpom\\Slim4\\SymfonyRouting\\": "src/"
+        }
+    }
+}
