@@ -1,4 +1,4 @@
-# symfony-slim4-routing
+# balpom/symfony-slim4-routing
 ## Symfony Router as Slim 4 alternative router.
 
 Alternative routing for Slim 4 framework based on Symfony Router (instead of default Fast Router).
